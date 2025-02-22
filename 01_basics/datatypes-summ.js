@@ -33,11 +33,41 @@ const heros = ["ironman" , "captain" , "hulk"];
 
 //Function 
 
-const myFunction = function(){
-    console.log("Hello world");
+// const myFunction = function(){
+//     console.log("Hello world");
     
+// }
+
+
+
+// console.log(typeof heros)
+
+
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+//Stack (primitive) , Heap (Non-Primitive)
+
+
+let myFunctions = "Vishwa"
+
+let my = myFunctions
+my = "teja"
+
+console.log(myFunctions);
+console.log(my);
+
+
+let userOne = {
+    email : "vishwa@gamil.com"
 }
 
+let userTwo = userOne;
 
+ userTwo.email = "vishea"
 
-console.log(typeof heros)
+console.log(userOne);
+console.log(userTwo);
+
