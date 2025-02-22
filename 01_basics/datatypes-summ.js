@@ -56,8 +56,8 @@ let myFunctions = "Vishwa"
 let my = myFunctions
 my = "teja"
 
-console.log(myFunctions);
-console.log(my);
+console.log(myFunctions); //vishwa
+console.log(my); //teja
 
 
 let userOne = {
@@ -68,6 +68,6 @@ let userTwo = userOne;
 
  userTwo.email = "vishea"
 
-console.log(userOne);
-console.log(userTwo);
+console.log(userOne); // vishea
+console.log(userTwo);  //vishea
 
